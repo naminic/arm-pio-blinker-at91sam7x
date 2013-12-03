@@ -1,0 +1,207 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256.uvproj
+Project File Date:  11/28/2013
+
+<h2>Output:</h2>
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+_____^
+*** error 56: cannot open file
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+_____^
+*** error 56: cannot open file
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'flash-SAM-ICE'
+compiling cp15.c...
+compiling pio.c...
+compiling pmc.c...
+assembling cp15_asm_keil.s...
+compiling board_lowlevel.c...
+compiling board_memories.c...
+assembling board_cstartup_keil.s...
+../../../at91lib/boards/at91sam7x-ek/board_cstartup_keil.s(116): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+compiling main.c...
+linking...
+Program Size: Code=2024 RO-data=104 RW-data=0 ZI-data=8288  
+FromELF: creating hex file...
+User command #1: fromelf.exe --bin -o  C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.bin C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.axf
+".\at91sam7x256-flash\at91sam7x256-flash.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 1.501V
+Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+***JLink Error: TCK (pin 9) low, but should be high. Please check target hardware.
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+JTAG speed: 1000 kHz
+Erase Failed!
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.345V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'flash-SAM-ICE'
+compiling main.c...
+linking...
+Program Size: Code=2024 RO-data=104 RW-data=0 ZI-data=8288  
+FromELF: creating hex file...
+User command #1: fromelf.exe --bin -o  C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.bin C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.axf
+".\at91sam7x256-flash\at91sam7x256-flash.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.423V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Application running ...
+Build target 'flash-SAM-ICE'
+compiling main.c...
+..\main.c(74): warning:  #177-D: variable "state" was declared but never referenced
+linking...
+Program Size: Code=1912 RO-data=104 RW-data=0 ZI-data=8288  
+FromELF: creating hex file...
+User command #1: fromelf.exe --bin -o  C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.bin C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\at91sam7x256-flash\at91sam7x256-flash.axf
+".\at91sam7x256-flash\at91sam7x256-flash.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.397V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Application running ...
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.300V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Application running ...
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Application running ...
+Load "C:\\Users\\Sina\\Documents\\GitHub\\arm-pio-blinker-at91sam7x\\at91sam7x-ek\\pio-project\\uv2\\at91sam7x256-flash\\at91sam7x256-flash.AXF" 
+ProjectFile = C:\Users\Sina\Documents\GitHub\arm-pio-blinker-at91sam7x\at91sam7x-ek\pio-project\uv2\JLinkArm_flash-SAM-ICE.ini
+Device = at91sam7x256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+JTAG speed: 4 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Application running ...

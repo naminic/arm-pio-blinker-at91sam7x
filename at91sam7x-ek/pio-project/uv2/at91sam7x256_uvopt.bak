@@ -127,7 +127,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(117=-1,-1,-1,-1,0)(116=-1,-1,-1,-1,0)(119=-1,-1,-1,-1,0)(112=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(100=120,152,735,515,0)(101=565,113,1180,476,1)(118=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(191=-1,-1,-1,-1,0)(192=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(3010=-1,-1,-1,-1,0)(114=-1,-1,-1,-1,0)(113=-1,-1,-1,-1,0)(115=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(3006=-1,-1,-1,-1,0)(135=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)</Name>
+          <Name>(117=-1,-1,-1,-1,0)(116=-1,-1,-1,-1,0)(119=-1,-1,-1,-1,0)(3015=-1,-1,-1,-1,0)(3016=-1,-1,-1,-1,0)(3018=-1,-1,-1,-1,0)(112=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(101=-1,-1,-1,-1,0)(102=-1,-1,-1,-1,0)(118=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(191=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(3014=-1,-1,-1,-1,0)(114=-1,-1,-1,-1,0)(113=-1,-1,-1,-1,0)(115=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(3006=-1,-1,-1,-1,0)(135=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -137,7 +137,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>JLTAgdi</Key>
-          <Name>-O1070 -J1 -Y1000 -Z8 -FO15 -FD200000 -FC800 -FN1 -FF0AT91SAM7_256 -FS0100000 -FL040000</Name>
+          <Name>-O1038 -J1 -Y1000 -Z8 -FO7 -FD200000 -FC800 -FN2  -FF0AT91SAM7_256 -FS0100000 -FL040000</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -149,7 +149,7 @@
       <DebugFlag>
         <trace>0</trace>
         <periodic>0</periodic>
-        <aLwin>1</aLwin>
+        <aLwin>0</aLwin>
         <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
@@ -743,10 +743,10 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>22</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>150</TopLine>
-      <CurrentLine>160</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>../../../at91lib/boards/at91sam7x-ek/board_cstartup_keil.s</PathWithFileName>
       <FilenameWithoutPath>board_cstartup_keil.s</FilenameWithoutPath>
@@ -762,12 +762,12 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>8</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>24</ColumnNumber>
+      <ColumnNumber>19</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>56</TopLine>
-      <CurrentLine>82</CurrentLine>
+      <TopLine>45</TopLine>
+      <CurrentLine>52</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>

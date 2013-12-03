@@ -77,35 +77,12 @@ int main(void)
 	PIO_Configure(&pinPB2,1);
     
     // Main loop
-    while (1) {
-	  switch (state){
-			//-------------led bilink
-    case bilink:			
-    PIO_Set(&pinLED[0]);
-		delay_ms(500);
-    PIO_Clear(&pinLED[0]);
-		delay_ms(500);
-		break;
-		//---------------led on
-		case on:
-     PIO_Set(pinLED);
-     break;		
-		//---------------led off
-		case off:
-		 PIO_Clear(pinLED);
-		 break;
-    		
-	    }//end of switch
-			
-			
-		if(PIO_Get(&pinPB1)){
-    state=on;
-		 }	
-
-		if(PIO_Get(&pinPB2)){
-    state=off;
-		 }
-		 
+    while (1)
+		{
+			PIO_Set(&pinLED[0]);
+			delay_ms(500);
+			PIO_Clear(&pinLED[0]);
+			delay_ms(500);		 
     }
 }
 

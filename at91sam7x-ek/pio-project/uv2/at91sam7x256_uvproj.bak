@@ -162,10 +162,10 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4098</DriverSelection>
+            <DriverSelection>0</DriverSelection>
           </Flash1>
           <Flash2>Segger\JLTAgdi.dll</Flash2>
-          <Flash3>"" ()</Flash3>
+          <Flash3></Flash3>
           <Flash4></Flash4>
         </Utilities>
         <TargetArmAds>
