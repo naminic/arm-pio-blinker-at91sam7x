@@ -77,12 +77,21 @@ int main(void)
 	PIO_Configure(&pinPB2,1);
     
     // Main loop
+	int		blink=1;
     while (1)
 		{
+			if(!PIO_Get(&pinPB1))
+				blink=0;
+			if(!PIO_Get(&pinPB2))
+				blink=1;
+			
+			if (!blink)
+				continue;
+
 			PIO_Set(&pinLED[0]);
 			delay_ms(500);
 			PIO_Clear(&pinLED[0]);
-			delay_ms(500);		 
+			delay_ms(500);		
     }
 }
 
